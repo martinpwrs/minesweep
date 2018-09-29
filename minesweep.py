@@ -151,6 +151,16 @@ def playgame():
     helpmessage = ("Type the column followed by the row (eg. a5). "
                    "To put or remove a flag, add 'f' to the cell (eg. a5f).")
 
+    print("Welcome to...\n"
+          "  __  __   _ \n"
+          " |  \/  | (_)\n"
+          " | \  / |  _   _ __     ___   ___  __      __   ___    ___   _ __    _   _\n"
+          " | |\/| | | | | '_ \   / _ \ / __| \ \ /\ / /  / _ \  / _ \ | '_ \  | | | |\n"
+          " | |  | | | | | | | | |  __/ \__ \  \ V  V /  |  __/ |  __/ | |_) | | |_| |\n"
+          " |_|  |_| |_| |_| |_|  \___| |___/   \_/\_/    \___|  \___| | .__/   \__, |\n"
+          "                                                            | |       __/ |\n"
+          "                                                            |_|      |___/\n"
+         )
     showgrid(currgrid)
     print(helpmessage + " Type 'help' to show this message again.\n")
 
